@@ -19,7 +19,7 @@ export default function Home() {
           <meta property="og:title" content="Jeremy <Frontend/>" />
           <meta
             name="description"
-            content="Jeremy Mosquera Frontend Developer Portfolio"
+            content="Jeremy Mosquera Frontend Developer Portfolio testing text only for test the metadata"
           ></meta>
           <meta
             property="og:image"

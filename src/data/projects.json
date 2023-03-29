@@ -57,7 +57,7 @@
             { "name": "PriceFighter3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027267/Portfolio/seventhProject/priceFighterStreamer_unzd1h.png" }
             ],
         "projectRepo": "https://github.com/JeremyDevCode/pricefighter",
-        "projectSite": "pricefighter.vercel.app",
+        "projectSite": "https://pricefighter.vercel.app",
         "projectTitle": "Price Fighter",
         "projectResume": "Web minigame to compare the prices of different products",
         "projectDescription": "Web minigame to compare the prices of different products",
