@@ -13,7 +13,7 @@ function JobCard({ job }) {
       key={job.id}
       className="relative flex flex-col gap-4 pl-6 sm:even:translate-x-full sm:even:pr-0 sm:w-2/4 sm:odd:pl-0 sm:odd:pr-6 group z-10"
     >
-      <span className="absolute top-0 left-[-10px] h-5 w-5 rounded-full dark:bg-primaryBButton bg-Highlighted sm:group-odd:left-[calc(100%-10px)]"></span>
+      <span className="absolute top-0 left-[-10px] h-5 w-5 rounded-full bg-primaryBButton sm:group-odd:left-[calc(100%-10px)]"></span>
       <div className="sm:absolute dark:bg-bgWhite text-primaryWText bg-[#00000011] top-0 p-2 flex flex-col justify-center items-center gap-4 h-[120px] w-[120px] object-contain rounded-3xl right-12 group-odd:left-[calc(100%+1.5rem)] group-even:left-[calc(-120px-1.5rem)] text-center">
         {job.jobPicture ? (
           <img

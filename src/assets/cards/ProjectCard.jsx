@@ -23,9 +23,9 @@ function ProjectCard({ project }) {
           <h1 className="sm:text-xl text-lg font-bold dark:text-primaryBText primaryWText">
             {project.projectTitle}
           </h1>
-          <small className="dark:text-bGray text-wGray">
+          <p className="w-[100%] sm:text-lg text-base lg:truncate dark:text-bGray text-wGray">
             {project.projectResume}
-          </small>
+          </p>
         </div>
         <div className="flex gap-2 w-fit">
           <a

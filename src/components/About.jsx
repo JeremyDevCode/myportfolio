@@ -14,7 +14,7 @@ function About() {
           <p className="lg:text-xl sm:text-lg text-sm dark:text-secondaryBText secondaryWText">
             My coding journey began in 2019, where I eagerly delved into
             languages such as C++, Java, and{" "}
-            <span className="font-extrabold text-lg bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
+            <span className="font-extrabold lg:text-xl sm:text-lg text-sm bg-gradient-to-r from-sky-500 to-indigo-500 bg-clip-text text-transparent">
               Javascript
             </span>
             .

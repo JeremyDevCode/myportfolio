@@ -3,7 +3,7 @@ import React from "react";
 function GmailIcon() {
   return (
     <svg
-      className="dark:stroke-primaryBButton stroke-Highlighted"
+      className="stroke-primaryBButton"
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
