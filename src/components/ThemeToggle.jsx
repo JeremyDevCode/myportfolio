@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 function ThemeToggle({ currentTheme, setTheme }) {
   return (
     <>
       {currentTheme === "dark" ? (
-        <button onClick={() => setTheme("light")}>
+        <button onClick={() => setTheme("")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"

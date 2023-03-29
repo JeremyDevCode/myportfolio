@@ -1,6 +1,4 @@
-import { useTheme } from "next-themes";
 import Head from "next/head";
-import { useEffect, useRef, useState } from "react";
 import { Footer } from "../common/Footer";
 import { Navbar } from "../common/Navbar";
 import { About } from "../components/About";
@@ -11,26 +9,7 @@ import { Projects } from "../components/Projects";
 import { useLocalStorage } from "../modules/useLocalStorage";
 
 export default function Home() {
-  const [mounted, setMounted] = useState(false);
   const [theme, setTheme] = useLocalStorage("theme", "dark");
-
-  const container = useRef();
-
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (container.current && hash) {
-      const section = container.current.querySelector(hash);
-
-      if (section) {
-        section.scrollIntoView();
-      }
-    }
-  }, [container]);
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-  if (!mounted) return null;
-
   return (
     <div className={`${theme}`}>
       <div
@@ -42,14 +21,15 @@ export default function Home() {
             name="description"
             content="Jeremy Mosquera Frontend Developer Portfolio"
           ></meta>
+          <meta
+            property="og:image"
+            content="https://res.cloudinary.com/deohsoirn/image/upload/v1680056455/Portfolio/additionalImages/myHouse_wyasnd.png"
+          />
         </Head>
 
         <div className="sm:px-[15%]">
           <Navbar currentTheme={theme} setTheme={setTheme} />
-          <div
-            ref={container}
-            className="flex flex-col items-center justify-center"
-          >
+          <div className="flex flex-col items-center justify-center">
             <Presentation />
             <About />
             <Projects />
