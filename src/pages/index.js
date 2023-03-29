@@ -23,7 +23,7 @@ export default function Home() {
           ></meta>
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/deohsoirn/image/upload/v1680056455/Portfolio/additionalImages/myHouse_wyasnd.png"
+            content="https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png"
           />
           <meta property="og:image:type" content="image/png" />
           <meta property="og:image:width" content="1200" />
