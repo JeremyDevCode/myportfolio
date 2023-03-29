@@ -16,17 +16,17 @@ export default function Home() {
         className={`sm:w-full w-full sm:h-fit flex items-center justify-center dark:bg-bgBlack bg-bgWhite`}
       >
         <Head>
-          <title>{"Jeremy <Frontend/>"}</title>
+          <title>{"Portfolio"}</title>
           <meta name="og:site_name" content="Jeremy Mosquera" />
           <meta
             name="description"
-            content="Jeremy Mosquera Frontend Developer Portfolio"
+            content="Front-end developer excited to collaborate with teams that share my passion for programming, strive to promote personal growth, and seek to use their skills to make a positive impact through the development of innovative products and services."
           ></meta>
 
-          <meta itemProp="name" content="Jeremy <Frontend/>" />
+          <meta itemProp="name" content="Portfolio" />
           <meta
             itemProp="description"
-            content="Jeremy Mosquera Frontend Developer Portfolio testing text only for test the metadata"
+            content="Front-end developer excited to collaborate with teams that share my passion for programming, strive to promote personal growth, and seek to use their skills to make a positive impact through the development of innovative products and services."
           />
           <meta
             itemProp="image"
@@ -38,10 +38,10 @@ export default function Home() {
             content="https://jeremyportfolio.vercel.app"
           />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Jeremy <Frontend/>" />
+          <meta property="og:title" content="Portfolio" />
           <meta
             name="og:description"
-            content="Jeremy Mosquera Frontend Developer Portfolio"
+            content="Front-end developer excited to collaborate with teams that share my passion for programming, strive to promote personal growth, and seek to use their skills to make a positive impact through the development of innovative products and services."
           ></meta>
           <meta
             property="og:image"
@@ -52,10 +52,10 @@ export default function Home() {
           <meta property="og:image:height" content="1700" />
 
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Jeremy <Frontend/>" />
+          <meta name="twitter:title" content="Portfolio" />
           <meta
             name="twitter:description"
-            content="Jeremy Mosquera Frontend Developer Portfolio"
+            content="Front-end developer excited to collaborate with teams that share my passion for programming, strive to promote personal growth, and seek to use their skills to make a positive impact through the development of innovative products and services."
           />
           <meta
             name="twitter:image"
