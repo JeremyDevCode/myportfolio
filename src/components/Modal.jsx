@@ -8,8 +8,9 @@ function Modal({ project }) {
   return (
     <section
       data-visible="false"
-      className="fixed hidden data-[visible=true]:flex items-center justify-center top-0 left-0 w-screen h-full bg-[#00000088] z-50 backdrop-blur-sm overflow-y-hidden"
+      className="fixed hidden data-[visible=true]:flex items-center justify-center top-0 left-0 w-screen h-full bg-[#00000088] z-50 backdrop-blur-sm overflow-y-hidden projectModalClose"
       id={`project-${project?.id}`}
+      data-target={`project-${project?.id}`}
     >
       <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] lg:max-w-[90%] overflow-hidden relative  bg-[#FFF] dark:bg-[#181818]">
         <Carousel project={project.id} images={project?.carouselImages} />
@@ -40,7 +41,7 @@ function Modal({ project }) {
             {project?.projectDescription}
           </p>
           <div className="flex flex-col gap-3 mb-1">
-            <h2 className="text-light-texto-primary dark:text-dark-texto-primary font-bold text-[0.91rem]">
+            <h2 className="dark:text-primaryBText text-primaryWText font-bold text-[0.91rem]">
               Tecnologías
             </h2>
             <ul className="flex flex-wrap mb-0 gap-x-4 gap-y-2 text-light-texto-secondary dark:text-dark-texto-secondary">
