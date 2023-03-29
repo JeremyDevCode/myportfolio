@@ -17,7 +17,7 @@ export default function Home() {
       >
         <Head>
           <title>{"Jeremy <Frontend/>"}</title>
-          <meta name="site_name" content="Jeremy Mosquera" />
+          <meta name="og:site_name" content="Jeremy Mosquera" />
           <meta
             name="description"
             content="Jeremy Mosquera Frontend Developer Portfolio"
