@@ -8,10 +8,13 @@ function Modal({ project }) {
   return (
     <section
       data-visible="false"
-      className="fixed hidden data-[visible=true]:flex items-center justify-center top-0 left-0 w-screen h-full bg-[#00000088] z-50 backdrop-blur-sm overflow-y-hidden projectModalClose"
+      className="fixed hidden data-[visible=true]:flex items-center justify-center top-0 left-0 w-screen h-full bg-[#00000088] z-50 backdrop-blur-sm overflow-y-hidden"
       id={`project-${project?.id}`}
-      data-target={`project-${project?.id}`}
     >
+      <div
+        className="w-full h-full absolute projectModalClose"
+        data-target={`project-${project?.id}`}
+      ></div>
       <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] lg:max-w-[90%] overflow-hidden relative  bg-[#FFF] dark:bg-[#181818]">
         <Carousel project={project.id} images={project?.carouselImages} />
         <div className="flex flex-col gap-8 px-8 my-12 lg:w-2/5">

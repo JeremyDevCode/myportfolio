@@ -20,7 +20,7 @@ function ProjectCard({ project }) {
       </div>
       <div className="flex justify-between items-center gap-2 m-w-[100%] overflow-hidden">
         <div className="flex flex-col items-start justify-center gap-1 pb-5 mt-2 overflow-hidden">
-          <h1 className="text-lg font-bold dark:text-primaryBText primaryWText">
+          <h1 className="sm:text-xl text-lg font-bold dark:text-primaryBText primaryWText">
             {project.projectTitle}
           </h1>
           <small className="dark:text-bGray text-wGray">
