@@ -17,6 +17,7 @@ export default function Home() {
       >
         <Head>
           <title>{"Jeremy <Frontend/>"}</title>
+          <meta name="site_name" content="Jeremy Mosquera" />
           <meta
             name="description"
             content="Jeremy Mosquera Frontend Developer Portfolio"
@@ -47,8 +48,8 @@ export default function Home() {
             content="https://res.cloudinary.com/deohsoirn/image/upload/v1680056455/Portfolio/additionalImages/myHouse_wyasnd.png"
           />
           <meta property="og:image:type" content="image/png" />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
+          <meta property="og:image:width" content="1700" />
+          <meta property="og:image:height" content="1700" />
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Jeremy <Frontend/>" />
