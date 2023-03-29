@@ -17,8 +17,13 @@ export default function Home() {
       >
         <Head>
           <meta property="og:title" content="Jeremy <Frontend/>" />
+          <meta property="title" content="Jeremy <Frontend/>" />
           <meta
             name="description"
+            content="Jeremy Mosquera Frontend Developer Portfolio testing text only for test the metadata"
+          ></meta>
+          <meta
+            name="og:description"
             content="Jeremy Mosquera Frontend Developer Portfolio testing text only for test the metadata"
           ></meta>
           <meta
