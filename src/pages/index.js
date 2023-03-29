@@ -25,8 +25,8 @@ export default function Home() {
             property="og:image"
             content="https://res.cloudinary.com/deohsoirn/image/upload/v1680056455/Portfolio/additionalImages/myHouse_wyasnd.png"
           />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
+          <meta property="og:image:width" content="1700" />
+          <meta property="og:image:height" content="1700" />
         </Head>
 
         <div className="sm:px-[15%]">
