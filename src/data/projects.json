@@ -1,0 +1,149 @@
+[
+    {
+        "id": "Gifty",
+        "carouselImages": [ 
+            { "name": "Gifty1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430483/Portfolio/sixthProject/giftyHome_pexoju.png" },
+            { "name": "Gifty2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430786/Portfolio/sixthProject/giftySearch_kfgopg.png" },
+            { "name": "Gifty3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430854/Portfolio/sixthProject/giftyAnimation_x5zko5.png" }
+        ],
+        "projectRepo": "https://github.com/JeremyDevCode/gifty",
+        "projectSite": "https://gifty-jeremydevcode.vercel.app",
+        "projectTitle": "Gifty",
+        "projectResume": "Web application to find gifs, enjoy and share",
+        "projectDescription": "Web application to find gifs, enjoy and share.",
+
+        "projectTechnologies": [
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    },
+    {
+        "id": "SecretPass",
+        "carouselImages": [
+            { "name": "SecretPass1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPassS_tk4yrj.png" },
+            { "name": "SecretPass2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPass_fanspj.png" },
+            { "name": "SecretPass3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPassM_iw3re5.png" }
+        ],
+        "projectRepo": "https://github.com/JeremyDevCode/secretpass",
+        "projectSite": "https://secretpass.vercel.app",
+        "projectTitle": "SecretPass",
+        "projectResume": "Create a random and secure password",
+        "projectDescription": "Create a random and secure password",
+
+        "projectTechnologies": [
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    },
+    {
+        "id": "Price Fighter",
+        "carouselImages": [
+            { "name": "PriceFighter1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027215/Portfolio/seventhProject/priceFighter_yw3dlj.png" },
+            { "name": "PriceFighter2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027178/Portfolio/seventhProject/priceFighterNormal_gp2g0s.png" },
+            { "name": "PriceFighter3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027267/Portfolio/seventhProject/priceFighterStreamer_unzd1h.png" }
+            ],
+        "projectRepo": "https://github.com/JeremyDevCode/pricefighter",
+        "projectSite": "pricefighter.vercel.app",
+        "projectTitle": "Price Fighter",
+        "projectResume": "Web minigame to compare the prices of different products",
+        "projectDescription": "Web minigame to compare the prices of different products",
+
+        "projectTechnologies": [
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Figma", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444873/Portfolio/Icons/figma_ptyicc.png"},
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    },
+    {
+        "id": "Weather Now",
+        "carouselImages": [
+            { "name": "WeatherNow1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431690/Portfolio/fourthProject/weatherNowHome_auufrd.png" },
+            { "name": "WeatherNow2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431745/Portfolio/fourthProject/weatherNowEnter_j8cpan.png" },
+            { "name": "WeatherNow3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431807/Portfolio/fourthProject/weatherNowError_yc2toz.png" }
+        ],
+        "projectRepo": "https://github.com/JeremyDevCode/weathernow",
+        "projectSite": "https://weathernow-jeremydevcode.vercel.app",
+        "projectTitle": "Weather Now",
+        "projectResume": "See the temperature of the location you want",
+        "projectDescription": "See the temperature of the location you want",
+
+        "projectTechnologies": [
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    },
+    {
+        "id": "MovieDo",
+        "carouselImages": [
+            { "name": "MovieDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoLogo_qrs57x.png" },
+            { "name": "MovieDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoCategories_afloek.png" },
+            { "name": "MovieDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoMenu_tkn1sl.png" }
+        ],
+        "projectRepo": "https://github.com/JeremyDevCode/movie-do",
+        "projectSite": "https://movie-do.vercel.app",
+        "projectTitle": "MovieDo",
+        "projectResume": "Discover the most famous movies and interesting facts",
+        "projectDescription": "Discover the most famous movies and interesting facts",
+
+        "projectTechnologies": [
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    },
+    {
+        "id": "CubeDo",
+        "carouselImages": [
+            { "name": "CubeDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429423/Portfolio/firstProject/CubeDoLogo_vebpcw.png" },
+            { "name": "CubeDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoHome_xcccku.png" },
+            { "name": "CubeDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoProjection_qvdwl3.jpg" }
+        ],
+        "projectRepo": "https://github.com/JeremyDevCode/cubedo",
+        "projectSite": "https://jeremydevcode.github.io/cubedo/",
+        "projectTitle": "CubeDo",
+        "projectResume": "Manage your tasks through a task list",
+        "projectDescription": "Organize your day with the help of an agenda that saves reminders for the tasks you must do throughout the day.",
+
+        "projectTechnologies": [
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "CSS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "React Router", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679977838/Portfolio/Icons/reactRouter_a7qj98.png" },
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" }
+        ]
+    }
+]

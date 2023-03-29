@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Home"
+    },
+    {
+        "id": 2,
+        "name": "Projects"
+    },
+    {
+        "id": 3,
+        "name": "Experience"
+    },
+    {
+        "id": 4,
+        "name": "Contact"
+    }
+]

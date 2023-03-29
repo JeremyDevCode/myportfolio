@@ -1,0 +1,42 @@
+[
+    {
+        "id": "le_warehouse",
+        "jobPicture": "",
+        "jobColor": "#0086eb",
+        "jobTitle": "Frontend Developer",
+        "jobTime": "-",
+        "jobCompany": "Your company",
+        "jobDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "jobActivities": "",
+        "jobTechnologies": ""
+    },
+    {
+        "id": "Personal",
+        "jobPicture": "",
+        "jobColor": "#3a7d44",
+        "jobTitle": "Personal projects",
+        "jobTime": "September 2019 - Present",
+        "jobCompany": "Own",
+        "jobDescription": "In 2019, I discovered my passion for programming and decided to study it while in school. I began by learning Pseint and then progressed to C++, Java, and eventually HTML, CSS, and Javascript. It was during this time that I discovered my love for web development, particularly in frontend development. As I aspire to become a frontend developer, I have been working on several projects. Initially, I worked on long projects that I ended up abandoning. However, I learned that shorter, aesthetically-pleasing projects that demonstrate my skills are much better.",
+        "jobActivities": [
+            "Continuous learning of different libraries and tools.",
+            "Discovering the beauty of Frontend Development.",
+            "Doing my best to deliver a clean design in my projects."
+        ],
+        "jobTechnologies": [
+            { "name": "HTML", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443476/Portfolio/Icons/html_lbl9nf.png" },
+            { "name": "CSS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Figma", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444873/Portfolio/Icons/figma_ptyicc.png"},
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" },
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "Typescript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029638/Portfolio/Icons/typescript_xcjdry.png" }
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+.animated {
+  animation: animated 5s infinite;
+}
+
+@keyframes animated {
+  40%,
+  60% {
+    transform: scale(1.1) rotate(25deg);
+  }
+  40%,
+  83.333%,
+  100% {
+    transform: scale(0.9) rotate(0deg);
+  }
+  90%,
+  95% {
+    transform: scale(1.2) rotate(-30deg);
+  }
+}
