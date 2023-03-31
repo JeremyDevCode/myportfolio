@@ -4,11 +4,14 @@ import vscLogo from "../assets/images/vscLogo.png";
 
 function VscWidget() {
   return (
-    <div className="flex items-center gap-2 dark:text-bGray text-wGray text-sm font-semibold pt-5">
+    <div className="flex items-center gap-2 pt-5 text-sm font-semibold dark:text-bGray text-wGray">
       <Image className="h-[40px] w-[40px]" src={vscLogo} alt="vscLogo" />
       <p>
         Coding now (
-        <span className="text-primaryBButton font-extrabold">index.js</span>)
+        <span className="font-extrabold dark:text-primaryBButton text-Highlighted">
+          index.js
+        </span>
+        )
       </p>
     </div>
   );

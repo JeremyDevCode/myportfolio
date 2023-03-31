@@ -17,7 +17,9 @@ function GithubCard() {
         ></path>
       </svg>
       <div className="flex flex-col justify-center">
-        <small className="dark:text-bGray text-wGray font-medium">My Github account:</small>
+        <small className="font-medium dark:text-bGray text-wGray">
+          My Github account:
+        </small>
         <a
           className="text-lg font-bold dark:text-primaryBText text-primaryWText hover:underline decoration-1"
           href="https://github.com/jeremydevcode"
