@@ -20,23 +20,23 @@ function ProjectCard({ project }) {
       </div>
       <div className="flex justify-between items-center gap-2 m-w-[100%] overflow-hidden">
         <div className="flex flex-col items-start justify-center gap-1 pb-5 mt-2 overflow-hidden">
-          <h1 className="sm:text-xl text-lg font-bold dark:text-primaryBText primaryWText">
-            {project.projectTitle}
+          <h1 className="text-lg font-bold sm:text-xl dark:text-primaryBText primaryWText">
+            {project.title}
           </h1>
           <p className="w-[100%] sm:text-lg text-base lg:truncate dark:text-bGray text-wGray">
-            {project.projectResume}
+            {project.resume}
           </p>
         </div>
         <div className="flex gap-2 w-fit">
           <a
-            href={project.projectRepo}
+            href={project.repository}
             className="p-2 group/links dark:hover:bg-primaryBText hover:bg-primaryWText rounded-xl"
             target="_blank"
           >
             <GithubIcon className="dark:stroke-secondaryBText stroke-secondaryWText dark:group-hover/links:stroke-bgBlack group-hover/links:stroke-bgWhite" />
           </a>
           <a
-            href={project.projectSite}
+            href={project.site}
             className="p-2 group/links dark:hover:bg-primaryBText hover:bg-primaryWText rounded-xl"
             target="_blank"
           >

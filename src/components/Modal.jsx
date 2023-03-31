@@ -19,12 +19,12 @@ function Modal({ project }) {
         <Carousel project={project.id} images={project?.carouselImages} />
         <div className="flex flex-col gap-8 px-8 my-12 lg:w-2/5">
           <h1 className="text-2xl font-extrabold text-primaryWText dark:text-primaryBText sm:text-3xl">
-            {project?.projectTitle}
+            {project?.title}
           </h1>
           <div className="flex items-center gap-2">
             {" "}
             <a
-              href={project.projectRepo}
+              href={project.repository}
               className="flex items-center justify-center p-3 pr-4 gap-1 sm:gap-2 font-semibold text-sm text-[#252525] dark:text-[#CCCCCC] bg-[#00000011] dark:bg-[#FFFFFF11] dark:hover:bg-primaryBText hover:bg-[#111111] dark:hover:text-bgBlack hover:text-[#FAFBFC] rounded-lg transition-colors"
               target="_blank"
             >
@@ -32,7 +32,7 @@ function Modal({ project }) {
               GitHub
             </a>
             <a
-              href={project.projectSite}
+              href={project.site}
               className="flex items-center justify-center p-3 pr-4 gap-1 sm:gap-2 font-semibold text-sm text-[#252525] dark:text-[#CCCCCC] bg-[#00000011] dark:bg-[#FFFFFF11] dark:hover:bg-primaryBText hover:bg-[#111111] dark:hover:text-bgBlack hover:text-[#FAFBFC] rounded-lg transition-colors"
               target="_blank"
             >
@@ -41,14 +41,14 @@ function Modal({ project }) {
             </a>
           </div>
           <p className="text-[#252525] dark:text-[#CCCCCC] text-[0.91rem]">
-            {project?.projectDescription}
+            {project?.description}
           </p>
           <div className="flex flex-col gap-3 mb-1">
             <h2 className="dark:text-primaryBText text-primaryWText font-bold text-[0.91rem]">
               Tecnologías
             </h2>
             <ul className="flex flex-wrap mb-0 gap-x-4 gap-y-2 text-light-texto-secondary dark:text-dark-texto-secondary">
-              {project?.projectTechnologies.map((technology) => (
+              {project?.technologies.map((technology) => (
                 <TechCard key={technology.name} technology={technology} />
               ))}
             </ul>

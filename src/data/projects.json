@@ -6,13 +6,13 @@
             { "name": "Gifty2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430786/Portfolio/sixthProject/giftySearch_kfgopg.png" },
             { "name": "Gifty3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430854/Portfolio/sixthProject/giftyAnimation_x5zko5.png" }
         ],
-        "projectRepo": "https://github.com/JeremyDevCode/gifty",
-        "projectSite": "https://gifty-jeremydevcode.vercel.app",
-        "projectTitle": "Gifty",
-        "projectResume": "Web application to find gifs, enjoy and share",
-        "projectDescription": "Web application to find gifs, enjoy and share.",
+        "repository": "https://github.com/JeremyDevCode/gifty",
+        "site": "https://gifty-jeremydevcode.vercel.app",
+        "title": "Gifty",
+        "resume": "Web application to find gifs, enjoy and share",
+        "description": "Web application to find gifs, enjoy and share.",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
@@ -31,13 +31,13 @@
             { "name": "SecretPass2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPass_fanspj.png" },
             { "name": "SecretPass3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPassM_iw3re5.png" }
         ],
-        "projectRepo": "https://github.com/JeremyDevCode/secretpass",
-        "projectSite": "https://secretpass.vercel.app",
-        "projectTitle": "SecretPass",
-        "projectResume": "Create a random and secure password",
-        "projectDescription": "Create a random and secure password",
+        "repository": "https://github.com/JeremyDevCode/secretpass",
+        "site": "https://secretpass.vercel.app",
+        "title": "SecretPass",
+        "resume": "Create a random and secure password",
+        "description": "Create a random and secure password",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
@@ -56,13 +56,13 @@
             { "name": "PriceFighter2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027178/Portfolio/seventhProject/priceFighterNormal_gp2g0s.png" },
             { "name": "PriceFighter3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027267/Portfolio/seventhProject/priceFighterStreamer_unzd1h.png" }
             ],
-        "projectRepo": "https://github.com/JeremyDevCode/pricefighter",
-        "projectSite": "https://pricefighter.vercel.app",
-        "projectTitle": "Price Fighter",
-        "projectResume": "Web minigame to compare the prices of different products",
-        "projectDescription": "Web minigame to compare the prices of different products",
+        "repository": "https://github.com/JeremyDevCode/pricefighter",
+        "site": "https://pricefighter.vercel.app",
+        "title": "Price Fighter",
+        "resume": "Web minigame to compare the prices of different products",
+        "description": "Web minigame to compare the prices of different products",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
@@ -82,13 +82,13 @@
             { "name": "WeatherNow2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431745/Portfolio/fourthProject/weatherNowEnter_j8cpan.png" },
             { "name": "WeatherNow3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431807/Portfolio/fourthProject/weatherNowError_yc2toz.png" }
         ],
-        "projectRepo": "https://github.com/JeremyDevCode/weathernow",
-        "projectSite": "https://weathernow-jeremydevcode.vercel.app",
-        "projectTitle": "Weather Now",
-        "projectResume": "See the temperature of the location you want",
-        "projectDescription": "See the temperature of the location you want",
+        "repository": "https://github.com/JeremyDevCode/weathernow",
+        "site": "https://weathernow-jeremydevcode.vercel.app",
+        "title": "Weather Now",
+        "resume": "See the temperature of the location you want",
+        "description": "See the temperature of the location you want",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
@@ -106,13 +106,13 @@
             { "name": "MovieDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoCategories_afloek.png" },
             { "name": "MovieDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoMenu_tkn1sl.png" }
         ],
-        "projectRepo": "https://github.com/JeremyDevCode/movie-do",
-        "projectSite": "https://movie-do.vercel.app",
-        "projectTitle": "MovieDo",
-        "projectResume": "Discover the most famous movies and interesting facts",
-        "projectDescription": "Discover the most famous movies and interesting facts",
+        "repository": "https://github.com/JeremyDevCode/movie-do",
+        "site": "https://movie-do.vercel.app",
+        "title": "MovieDo",
+        "resume": "Discover the most famous movies and interesting facts",
+        "description": "Discover the most famous movies and interesting facts",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
@@ -130,13 +130,13 @@
             { "name": "CubeDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoHome_xcccku.png" },
             { "name": "CubeDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoProjection_qvdwl3.jpg" }
         ],
-        "projectRepo": "https://github.com/JeremyDevCode/cubedo",
-        "projectSite": "https://jeremydevcode.github.io/cubedo/",
-        "projectTitle": "CubeDo",
-        "projectResume": "Manage your tasks through a task list",
-        "projectDescription": "Organize your day with the help of an agenda that saves reminders for the tasks you must do throughout the day.",
+        "repository": "https://github.com/JeremyDevCode/cubedo",
+        "site": "https://jeremydevcode.github.io/cubedo/",
+        "title": "CubeDo",
+        "resume": "Manage your tasks through a task list",
+        "description": "Organize your day with the help of an agenda that saves reminders for the tasks you must do throughout the day.",
 
-        "projectTechnologies": [
+        "technologies": [
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
             { "name": "CSS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
             { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },

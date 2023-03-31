@@ -9,10 +9,10 @@ function Contact() {
       className="flex flex-col sm:w-full w-[90%] gap-12 py-5"
       id="contact"
     >
-      <h1 className="lg:text-5xl text-3xl dark:text-primaryBText text-primaryWText font-extrabold">
+      <h1 className="text-3xl font-extrabold lg:text-5xl dark:text-primaryBText text-primaryWText">
         Contact
       </h1>
-      <ul className="flex items-center justify-start lg:justify-center flex-wrap gap-8 list-none">
+      <ul className="flex flex-wrap items-center justify-start gap-8 list-none lg:justify-center">
         <GmailCard />
         <LinkedinCard />
         <GithubCard />

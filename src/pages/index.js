@@ -10,7 +10,6 @@ import { useLocalStorage } from "../modules/useLocalStorage";
 
 export default function Home() {
   const [theme, setTheme] = useLocalStorage("theme", "dark");
-  const [tutorial, setTutorial] = useLocalStorage("tutorial", 0);
   return (
     <div className={`${theme}`}>
       <div
@@ -69,7 +68,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <Presentation />
             <About />
-            <Projects tutorial={tutorial} setTutorial={setTutorial} />
+            <Projects />
             <Jobs />
             <Contact />
             <Footer />

@@ -18,7 +18,7 @@ function Navbar({ currentTheme, setTheme }) {
 
   return (
     <nav className="flex items-center justify-center mb-5">
-      <div className="flex items-center justify-between lg:fixed lg:top-0 lg:backdrop-blur w-11/12 h-8 sm:py-8 pt-4 my-0 z-50">
+      <div className="z-40 flex items-center justify-between w-11/12 h-8 pt-4 my-0 lg:fixed lg:top-0 lg:backdrop-blur sm:py-8">
         <Logo />
         <Menu />
         <NavIcon setMobileMenu={setMobileMenu} />

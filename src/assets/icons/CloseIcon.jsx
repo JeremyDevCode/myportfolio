@@ -5,7 +5,7 @@ function CloseIcon({ setMobileMenu }) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       onClick={() => setMobileMenu(false)}
-      className="z-50 stroke-wGray hover:stroke-primaryWText sm:hidden transition-all dark:stroke-bGray dark:hover:stroke-primaryBText absolute top-5 left-5"
+      className="absolute z-50 cursor-pointer stroke-wGray hover:stroke-primaryWText transition-color dark:stroke-bGray dark:hover:stroke-primaryBText top-5 left-5"
       width="24"
       height="24"
       viewBox="0 0 24 24"

@@ -4,7 +4,7 @@ function NavIcon({ setMobileMenu }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="stroke-wGray hover:stroke-primaryWText sm:hidden transition-all dark:stroke-bGray dark:hover:stroke-primaryBText"
+      className="stroke-wGray hover:stroke-primaryWText sm:hidden transition-color dark:stroke-bGray dark:hover:stroke-primaryBText"
       onClick={() => setMobileMenu(true)}
       width="24"
       height="24"

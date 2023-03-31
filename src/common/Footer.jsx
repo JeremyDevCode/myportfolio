@@ -6,7 +6,7 @@ import menu from "../data/menu.json";
 function Footer() {
   return (
     <footer className="flex items-center mt-10 lg:w-full w-[90%]">
-      <div className="flex items-center justify-between p-8 lg:w-full w-[90%] gap-12 my-0 mx-auto border-t-[1px] border-[#FFFFFF12]">
+      <div className="flex items-center justify-between py-8 lg:w-full w-[90%] gap-12 my-0 mx-auto border-t-[1px] border-[#FFFFFF12]">
         <section className="flex flex-col gap-2">
           <div className="flex items-center gap-2 text-lg font-extrabold dark:text-primaryBText text-primaryWText">
             <Logo />
@@ -19,7 +19,7 @@ function Footer() {
           <VscWidget />
         </section>
         <section className="flex flex-col">
-          <ul className="flex flex-col gap-6 list-none dark:text-bGray text-wGray sm:text-sm text-xs font-medium">
+          <ul className="flex flex-col gap-6 text-xs font-medium list-none dark:text-bGray text-wGray sm:text-sm">
             {menu.map((option) => (
               <li
                 key={option.id}
