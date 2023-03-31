@@ -10,7 +10,7 @@ function MobileMenu({ mobileMenu, setMobileMenu }) {
     <>
       <div
         className={`absolute ${
-          mobileMenu ? "opacity-100 top-0" : "opacity-0 top-[-100%]"
+          mobileMenu ? "top-0" : "top-[-150%]"
         } duration-500 transition-all  w-full h-screen flex-col flex items-center justify-center list-none gap-20 dark:bg-bgBlack bg-bgWhite dark:text-bGray text-wGray text-2xl font-medium z-50`}
       >
         <CloseIcon setMobileMenu={setMobileMenu} />
