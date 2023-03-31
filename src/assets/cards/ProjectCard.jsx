@@ -5,7 +5,7 @@ import { RepoIcon } from "../icons/RepoIcon";
 
 function ProjectCard({ project }) {
   return (
-    <article className="flex flex-col w-full h-full gap-2 overflow-hidden bg-transparent">
+    <article className="flex flex-col w-full h-full gap-2 overflow-hidden bg-transparent min-h-[366px]">
       <div
         className="flex flex-col items-center justify-center w-full h-full overflow-hidden cursor-pointer rounded-xl projectModalOpen min-h-[250px]"
         data-target={`project-${project.id}`}
