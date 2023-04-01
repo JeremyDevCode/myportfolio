@@ -35,7 +35,7 @@
         "site": "https://secretpass.vercel.app",
         "title": "SecretPass",
         "resume": "Create a random and secure password",
-        "description": "Create a random and secure password",
+        "description": "Web application to generate random passwords with the parameters and the size that you choose. It has an option to copy the password and another to regenerate a new password.",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
@@ -60,7 +60,7 @@
         "site": "https://pricefighter.vercel.app",
         "title": "Price Fighter",
         "resume": "Web minigame to compare the prices of different products",
-        "description": "Web minigame to compare the prices of different products",
+        "description": "The project consisted of creating a web minigame similar to 'The Higher Lower Game' but we decided to compare product prices instead of visits!.",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
@@ -86,7 +86,7 @@
         "site": "https://weathernow-jeremydevcode.vercel.app",
         "title": "Weather Now",
         "resume": "See the temperature of the location you want",
-        "description": "See the temperature of the location you want",
+        "description": "Web application to see the weather of the location you want using the OpenWeatherMap API, try to be a simple application that can run on any device and deliver the information quickly.",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
@@ -110,7 +110,7 @@
         "site": "https://movie-do.vercel.app",
         "title": "MovieDo",
         "resume": "Discover the most famous movies and interesting facts",
-        "description": "Discover the most famous movies and interesting facts",
+        "description": "MovieDo is a web application with a netflix-like design that works with the TMDB (The Movie DataBase) API to pull popular movies, movies by category or even pull movies through a search, giving users information about their favorite movies and showing you a catalog of similar movies so you can continue browsing the website.",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
@@ -134,7 +134,7 @@
         "site": "https://jeremydevcode.github.io/cubedo/",
         "title": "CubeDo",
         "resume": "Manage your tasks through a task list",
-        "description": "Organize your day with the help of an agenda that saves reminders for the tasks you must do throughout the day.",
+        "description": "Web application for keeping notes, especially for tasks that you have to do and need to remember later in your day to day. It's one of the first fairly advanced projects trying to do with React, it has some features like a recycle bin in case you mess up and don't want to delete a note or want to restore it for some reason.",
 
         "technologies": [
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
