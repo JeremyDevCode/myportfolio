@@ -10,7 +10,7 @@
         "site": "https://gifty-jeremydevcode.vercel.app",
         "title": "Gifty",
         "resume": "Web application to find gifs, enjoy and share",
-        "description": "Web application to find gifs, enjoy and share.",
+        "description": "Web application to find gifs, enjoy and share them. It is connected to the Giphy API, it has a trending section and you can search for gifs of your favorite topic! In addition to being able to copy and paste them wherever you want, perfect for having fun with your friends.",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
