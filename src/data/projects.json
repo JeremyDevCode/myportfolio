@@ -60,7 +60,7 @@
         "site": "https://pricefighter.vercel.app",
         "title": "Price Fighter",
         "resume": "Web minigame to compare the prices of different products",
-        "description": "The project consisted of creating a web minigame similar to 'The Higher Lower Game' but we decided to compare product prices instead of visits!.",
+        "description": "The project consisted of creating a web minigame similar to 'The Higher Lower Game' but we decided to compare product prices instead of visits!",
 
         "technologies": [
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
