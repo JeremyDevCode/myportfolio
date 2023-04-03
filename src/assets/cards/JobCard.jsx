@@ -32,17 +32,17 @@ function JobCard({ job }) {
       </div>
       <div className="flex flex-col justify-center">
         <div className="flex flex-col gap-2">
-          <h1 className="text-lg font-extrabold dark:text-primaryBText text-primaryWText">
+          <h1 className="text-xl font-extrabold dark:text-primaryBText text-primaryWText">
             {job.title}
           </h1>
-          <span className="text-base font-semibold dark:text-bGray text-wGray">
+          <span className="text-lg font-semibold dark:text-bGray text-wGray">
             {job.company}
           </span>
-          <span className="mt-1 text-sm font-medium dark:text-secondaryBText text-secondaryWText">
+          <span className="mt-1 text-base font-medium dark:text-secondaryBText text-secondaryWText">
             {job.time}
           </span>
         </div>
-        <p className="mt-5 dark:text-secondaryBText text-secondaryWText">
+        <p className="text-lg mt-5 dark:text-secondaryBText text-secondaryWText">
           {job.description}
         </p>
         <div
@@ -51,14 +51,14 @@ function JobCard({ job }) {
           } transition-all duration-500`}
         >
           <div className="flex flex-col gap-2 mt-4">
-            <h2 className="font-bold dark:text-primaryBText text-primaryWText">
+            <h2 className="text-xl font-bold dark:text-primaryBText text-primaryWText">
               Activities
             </h2>
             <ul
               role="list"
               className={`${
                 job.activities && "pl-5"
-              } marker:text-secondaryWText dark:marker:text-secondaryBText dark:text-secondaryBText text-secondaryWText list-disc  space-y-3`}
+              } text-base marker:text-secondaryWText dark:marker:text-secondaryBText dark:text-secondaryBText text-secondaryWText list-disc  space-y-3`}
             >
               {job.activities ? (
                 job.activities.map((activity) => (
@@ -72,7 +72,7 @@ function JobCard({ job }) {
             </ul>
           </div>
           <div className="flex flex-col gap-2 mt-4">
-            <h2 className="font-bold dark:text-primaryBText text-primaryWText">
+            <h2 className="text-xl font-bold dark:text-primaryBText text-primaryWText">
               Technologies
             </h2>
             <ul className="flex flex-wrap mb-0 gap-x-4 gap-y-2">

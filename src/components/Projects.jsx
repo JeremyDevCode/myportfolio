@@ -36,7 +36,7 @@ function Projects() {
       className="relative flex flex-col w-[90%] sm:w-full gap-12 py-16"
       id="projects"
     >
-      <h1 className="text-3xl font-extrabold lg:text-5xl dark:text-primaryBText primaryWText">
+      <h1 className="font-extrabold lg:text-5xl text-4xl dark:text-primaryBText primaryWText">
         Projects
       </h1>
       <div className="grid gap-8 lg:grid-cols-2 place-items-center">

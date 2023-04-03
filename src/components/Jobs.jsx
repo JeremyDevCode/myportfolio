@@ -8,7 +8,7 @@ function Jobs() {
       className="flex sm:w-full w-[90%] flex-col gap-12 pb-16"
       id="experience"
     >
-      <h1 className="text-3xl font-extrabold lg:text-5xl dark:text-primaryBText text-primaryWText">
+      <h1 className="font-extrabold lg:text-5xl text-4xl dark:text-primaryBText primaryWText">
         Experience
       </h1>
       <div className="relative flex flex-col gap-20">

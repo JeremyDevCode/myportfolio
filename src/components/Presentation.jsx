@@ -8,13 +8,13 @@ import { RocketIcon } from "../assets/icons/RocketIcon";
 function Presentation() {
   return (
     <main
-      className="sm:h-screen sm:min-h-fit h-[95vh] py-0 flex flex-col items-center justify-center text-center gap-16"
+      className="sm:h-screen lg:min-h-[832px] sm:min-h-[500px] min-h-[500px] h-[95vh] py-0 flex flex-col items-center justify-center text-center gap-16 sm:gap-8"
       id="home"
     >
       <h1 className="text-2xl font-semibold sm:text-3xl dark:text-bGray text-wGray dark:selection:bg-bgWhite dark:selection:text-wGray selection:text-bGray selection:bg-bgBlack">
         Jeremy Mosquera
       </h1>
-      <p className="lg:leading-[1.25] sm:leading-[1.25] leading-[1.25] lg:text-6xl sm:text-4xl text-3xl dark:text-primaryBText text-primaryWText font-extrabold w-[70%] dark:selection:bg-bgWhite dark:selection:text-primaryWText selection:bg-bgBlack selection:text-primaryBText">
+      <p className="lg:leading-[1.25] sm:leading-[1.25] leading-[1.25] sm:text-6xl text-4xl dark:text-primaryBText text-primaryWText font-extrabold lg:w-[70%] w-[90%] dark:selection:bg-bgWhite dark:selection:text-primaryWText selection:bg-bgBlack selection:text-primaryBText">
         Developer with a passion for building websites
         <br />
         <span className="dark:text-primaryBButton text-Highlighted dark:selection:text-Highlighted selection:text-primaryBButton">
@@ -64,7 +64,7 @@ function Presentation() {
           <ContactIcon />
         </a>
         <a
-          href="/favicon.ico"
+          href="/Jeremy Mosquera - Public CV.pdf"
           download
           className="flex items-center justify-center gap-4 py-4 font-bold border-0 dark:text-primaryWText w-fit dark:bg-primaryBText bg-secondaryWButton text-primaryBText hover:opacity-90 px-7 rounded-2xl"
         >

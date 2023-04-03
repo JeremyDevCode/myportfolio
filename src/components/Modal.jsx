@@ -12,12 +12,12 @@ function Modal({ project }) {
       id={`project-${project?.id}`}
     >
       <div
-        className="w-full h-full absolute projectModalClose"
+        className="absolute w-full h-full projectModalClose"
         data-target={`project-${project?.id}`}
       ></div>
-      <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] lg:max-w-[90%] overflow-hidden relative  bg-[#FFF] dark:bg-[#181818]">
+      <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] sm:max-w-[90%] overflow-hidden bg-[#FFF] dark:bg-[#181818] lg:h-fit h-full">
         <Carousel project={project.id} images={project?.carouselImages} />
-        <div className="flex flex-col gap-8 px-8 my-12 lg:w-2/5">
+        <div className="flex flex-col gap-8 px-8 my-5 sm:my-12 lg:w-2/5 relative">
           <h1 className="text-2xl font-extrabold text-primaryWText dark:text-primaryBText sm:text-3xl">
             {project?.title}
           </h1>
@@ -53,25 +53,25 @@ function Modal({ project }) {
               ))}
             </ul>
           </div>
-        </div>
-        <button
-          className="dark:hover:bg-[#FFFFFF11] dark:hover:text-[#F3F3F3] bg-transparent p-[5px] dark:text-secondaryBText text-[#6A6A6A] hover:text-[#252525] hover:bg-[#CCCCCC11] absolute top-1/2 lg:top-3 right-3 lg:p-2 rounded-md  transition-colors projectModalClose"
-          data-target={`project-${project?.id}`}
-        >
-          <svg
-            className="h-[18px] w-[18px] lg:w-[20px] lg:h-[20px]"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
+          <button
+            className="dark:hover:bg-[#FFFFFF11] dark:hover:text-[#F3F3F3] bg-transparent p-[5px] dark:text-secondaryBText text-[#6A6A6A] hover:text-[#252525] hover:bg-[#CCCCCC11] absolute top-0 right-5 lg:p-2 rounded-md transition-colors projectModalClose"
+            data-target={`project-${project?.id}`}
           >
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
+            <svg
+              className="h-[18px] w-[18px] lg:w-[20px] lg:h-[20px]"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
       </article>
     </section>
   );
