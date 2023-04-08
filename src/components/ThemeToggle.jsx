@@ -4,7 +4,7 @@ function ThemeToggle({ currentTheme, setTheme }) {
   return (
     <>
       {currentTheme === "dark" ? (
-        <button onClick={() => setTheme("")}>
+        <button onClick={() => setTheme("")} title="theme">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
