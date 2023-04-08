@@ -67,6 +67,7 @@ function Presentation() {
           href="/Jeremy Mosquera - Public CV.pdf"
           download
           className="flex items-center justify-center gap-4 py-4 font-bold border-0 dark:text-primaryWText w-fit dark:bg-primaryBText bg-secondaryWButton text-primaryBText hover:opacity-90 px-7 rounded-2xl"
+          aria-label="Download CV"
         >
           <p className="hidden whitespace-nowrap sm:block lg:text-xl">
             Download CV
