@@ -14,8 +14,8 @@ function ProjectCard({ project }) {
         <Image
           src={project.carouselImages[0].image}
           className="w-full h-full transition-transform duration-300 rounded-xl hover:scale-105"
-          width={1200}
-          height={950}
+          width={614}
+          height={478}
           alt={project.id}
         />
       </div>
