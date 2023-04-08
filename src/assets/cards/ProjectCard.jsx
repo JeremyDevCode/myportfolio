@@ -2,6 +2,7 @@ import React from "react";
 import { Modal } from "../../components/Modal";
 import { GithubIcon } from "../icons/GithubIcon";
 import { RepoIcon } from "../icons/RepoIcon";
+import Image from "next/image";
 
 function ProjectCard({ project }) {
   return (
@@ -10,7 +11,7 @@ function ProjectCard({ project }) {
         className="flex flex-col items-center justify-center w-full h-full overflow-hidden cursor-pointer rounded-xl projectModalOpen min-h-[250px]"
         data-target={`project-${project.id}`}
       >
-        <img
+        <Image
           src={project.carouselImages[0].image}
           className="w-full h-full transition-transform duration-300 rounded-xl hover:scale-105"
           width={1200}

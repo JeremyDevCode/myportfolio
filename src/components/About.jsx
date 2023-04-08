@@ -28,7 +28,9 @@ function About() {
         </div>
       </article>
       <Image
-        className="sm:w-[425px] w-[425px] bg-cover"
+        className="w-[425px] bg-cover"
+        width={425}
+        height={425}
         src={myHouse}
         alt="My house projection"
       />

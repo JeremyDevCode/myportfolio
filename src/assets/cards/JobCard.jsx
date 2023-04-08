@@ -4,6 +4,7 @@ import { EmptyIcon } from "../icons/EmptyIcon";
 import PeaceIcon from "../icons/PeaceIcon";
 import { TechCard } from "./TechCard";
 import style from "../../styles/Animation.module.css";
+import Image from "next/image";
 
 function JobCard({ job }) {
   const [open, setOpen] = useState(false);
@@ -16,7 +17,7 @@ function JobCard({ job }) {
       <span className="absolute top-0 left-[-10px] h-5 w-5 rounded-full bg-primaryBButton sm:group-odd:left-[calc(100%-10px)]"></span>
       <div className="sm:absolute dark:bg-bgWhite text-primaryWText bg-[#00000011] top-0 p-2 flex flex-col justify-center items-center gap-4 h-[120px] w-[120px] object-contain rounded-3xl right-12 group-odd:left-[calc(100%+1.5rem)] group-even:left-[calc(-120px-1.5rem)] text-center">
         {job.picture ? (
-          <img
+          <Image
             className="w-full h-full"
             src={job.picture}
             alt={`Logo of ${job.Company} where I worked as a ${job.title}`}

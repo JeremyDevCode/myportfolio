@@ -6,6 +6,7 @@ import * as ReactDOMServer from "react-dom/server";
 import { Pagination, Navigation } from "swiper";
 import { LeftArrowIcon } from "../assets/icons/LeftArrowIcon";
 import { RightArrowIcon } from "../assets/icons/RightArrowIcon";
+import Image from "next/image";
 
 export const Carousel = ({ images }) => {
   const swiperRef = useRef();
@@ -40,7 +41,13 @@ export const Carousel = ({ images }) => {
         </button>
         {images.map(({ name, image }) => (
           <SwiperSlide key={name}>
-            <img className="w-full h-full" src={image} />
+            <Image
+              className="w-full h-full"
+              src={image}
+              width={1250}
+              height={950}
+              alt={name}
+            />
           </SwiperSlide>
         ))}
         <button
