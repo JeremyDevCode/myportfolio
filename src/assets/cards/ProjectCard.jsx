@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
       >
         <Image
           src={project.carouselImages[0].image}
-          className="w-full h-full transition-transform duration-300 rounded-xl hover:scale-105"
+          className="aspect-auto transition-transform duration-300 rounded-xl hover:scale-105"
           width={614}
           height={478}
           alt={project.id}
