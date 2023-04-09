@@ -2,9 +2,9 @@
     {
         "id": "Gifty",
         "carouselImages": [ 
-            { "name": "Gifty1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430483/Portfolio/sixthProject/giftyHome_pexoju.png" },
-            { "name": "Gifty2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430786/Portfolio/sixthProject/giftySearch_kfgopg.png" },
-            { "name": "Gifty3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430854/Portfolio/sixthProject/giftyAnimation_x5zko5.png" }
+            { "name": "Gifty1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998737/Portfolio/sixthProject/GiftyHome.png" },
+            { "name": "Gifty2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998028/Portfolio/sixthProject/GiftyAnimation.png" },
+            { "name": "Gifty3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998120/Portfolio/sixthProject/GiftySearch.png" }
         ],
         "repository": "https://github.com/JeremyDevCode/gifty",
         "site": "https://gifty-jeremydevcode.vercel.app",
@@ -27,9 +27,9 @@
     {
         "id": "SecretPass",
         "carouselImages": [
-            { "name": "SecretPass1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPassS_tk4yrj.png" },
-            { "name": "SecretPass2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPass_fanspj.png" },
-            { "name": "SecretPass3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430255/Portfolio/fifthProject/SecretPassM_iw3re5.png" }
+            { "name": "SecretPass1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997602/Portfolio/fifthProject/SecretPassSafe.png" },
+            { "name": "SecretPass2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997681/Portfolio/fifthProject/SecretPassCare.png" },
+            { "name": "SecretPass3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997731/Portfolio/fifthProject/SecretPassCopy.png" }
         ],
         "repository": "https://github.com/JeremyDevCode/secretpass",
         "site": "https://secretpass.vercel.app",
@@ -52,9 +52,9 @@
     {
         "id": "Price Fighter",
         "carouselImages": [
-            { "name": "PriceFighter1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027215/Portfolio/seventhProject/priceFighter_yw3dlj.png" },
-            { "name": "PriceFighter2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027178/Portfolio/seventhProject/priceFighterNormal_gp2g0s.png" },
-            { "name": "PriceFighter3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680027267/Portfolio/seventhProject/priceFighterStreamer_unzd1h.png" }
+            { "name": "PriceFighter1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998218/Portfolio/seventhProject/PriceFighterHome.png" },
+            { "name": "PriceFighter2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998374/Portfolio/seventhProject/PriceFighterNormal.png" },
+            { "name": "PriceFighter3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680998412/Portfolio/seventhProject/PriceFighterStream.png" }
             ],
         "repository": "https://github.com/JeremyDevCode/pricefighter",
         "site": "https://pricefighter.vercel.app",
@@ -78,9 +78,9 @@
     {
         "id": "Weather Now",
         "carouselImages": [
-            { "name": "WeatherNow1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431690/Portfolio/fourthProject/weatherNowHome_auufrd.png" },
-            { "name": "WeatherNow2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431745/Portfolio/fourthProject/weatherNowEnter_j8cpan.png" },
-            { "name": "WeatherNow3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679431807/Portfolio/fourthProject/weatherNowError_yc2toz.png" }
+            { "name": "WeatherNow1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997418/Portfolio/fourthProject/WeatherNowHome.png" },
+            { "name": "WeatherNow2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997253/Portfolio/fourthProject/WeatherNowInto.png" },
+            { "name": "WeatherNow3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997313/Portfolio/fourthProject/WeatherNowError.png" }
         ],
         "repository": "https://github.com/JeremyDevCode/weathernow",
         "site": "https://weathernow-jeremydevcode.vercel.app",
@@ -102,9 +102,9 @@
     {
         "id": "MovieDo",
         "carouselImages": [
-            { "name": "MovieDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoLogo_qrs57x.png" },
-            { "name": "MovieDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoCategories_afloek.png" },
-            { "name": "MovieDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679430017/Portfolio/thirdProject/MovieDoMenu_tkn1sl.png" }
+            { "name": "MovieDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680996902/Portfolio/thirdProject/MovieDoLogo.png" },
+            { "name": "MovieDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997118/Portfolio/thirdProject/MovieDoMenu.png" },
+            { "name": "MovieDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680997004/Portfolio/thirdProject/MovieDoCategories.png" }
         ],
         "repository": "https://github.com/JeremyDevCode/movie-do",
         "site": "https://movie-do.vercel.app",
@@ -126,9 +126,9 @@
     {
         "id": "CubeDo",
         "carouselImages": [
-            { "name": "CubeDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429423/Portfolio/firstProject/CubeDoLogo_vebpcw.png" },
-            { "name": "CubeDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoHome_xcccku.png" },
-            { "name": "CubeDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1679429422/Portfolio/firstProject/CubeDoProjection_qvdwl3.jpg" }
+            { "name": "CubeDo1", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680996550/Portfolio/firstProject/CubeDoLogo.png" },
+            { "name": "CubeDo2", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680996695/Portfolio/firstProject/CubeDoHome.png" },
+            { "name": "CubeDo3", "image": "https://res.cloudinary.com/deohsoirn/image/upload/v1680996763/Portfolio/firstProject/CubeDoProjection.png" }
         ],
         "repository": "https://github.com/JeremyDevCode/cubedo",
         "site": "https://jeremydevcode.github.io/cubedo/",
