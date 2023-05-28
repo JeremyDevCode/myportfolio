@@ -19,11 +19,11 @@ function LinkedinCard() {
         </small>
         <a
           className="text-lg font-bold dark:text-primaryBText text-primaryWText hover:underline decoration-1"
-          href="https://linkedin.com/in/jeremydeveloper"
+          href="https://linkedin.com/in/jeremydev"
           target="_blank"
           rel="noreferrer"
         >
-          /in/jeremydeveloper
+          /in/jeremydev
         </a>
       </div>
     </li>
