@@ -8,12 +8,12 @@ function ProjectCard({ project }) {
   return (
     <article className="flex flex-col w-full h-full gap-2 overflow-hidden bg-transparent min-h-[366px]">
       <div
-        className="flex flex-col items-center justify-center w-full h-full overflow-hidden cursor-pointer rounded-xl projectModalOpen min-h-[250px]"
+        className="flex flex-col items-center justify-center w-fit overflow-hidden cursor-pointer rounded-xl projectModalOpen h-fit"
         data-target={`project-${project.id}`}
       >
         <Image
           src={project.carouselImages[0].image}
-          className="aspect-auto transition-transform duration-300 rounded-xl hover:scale-105"
+          className="aspect-auto transition-transform duration-300 rounded-xl hover:scale-105 w-auto h-auto"
           width={614}
           height={478}
           alt={project.id}

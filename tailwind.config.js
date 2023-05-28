@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       bgBlack: "#0A0A0A",
-      bgWhite: "#FAFBFC",
+      bgWhite: "#F5F5F5",
       primaryBText: "#F3F3F3",
       secondaryBText: "#CDCDCD",
       primaryWText: "#111",

@@ -15,9 +15,9 @@ function Modal({ project }) {
         className="absolute w-full h-full projectModalClose"
         data-target={`project-${project?.id}`}
       ></div>
-      <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] sm:max-w-[90%] overflow-hidden bg-[#FFF] dark:bg-[#181818] lg:h-fit h-full">
+      <article className="flex flex-col lg:flex-row max-h-[1024px] max-w-[100%] sm:max-w-[90%] overflow-hidden bg-[#F5F5F5] dark:bg-[#181818] lg:h-fit h-full">
         <Carousel project={project.id} images={project?.carouselImages} />
-        <div className="flex flex-col gap-8 px-8 my-5 sm:my-12 lg:w-2/5 relative">
+        <div className="flex flex-col gap-8 px-8 my-5 sm:my-12 lg:w-2/5 relative bg-[#F5F5F5] dark:bg-[#181818]">
           <h1 className="text-2xl font-extrabold text-primaryWText dark:text-primaryBText sm:text-3xl">
             {project?.title}
           </h1>

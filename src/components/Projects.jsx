@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { ProjectCard } from "../assets/cards/ProjectCard";
 import projects from "../data/projects.json";
+import { StarIcon } from "../assets/icons/StarIcon";
+import { NormalStarIcon } from "../assets/icons/NormalStarIcon";
 
 function Projects() {
   useEffect(() => {
@@ -36,9 +38,16 @@ function Projects() {
       className="relative flex flex-col w-[90%] sm:w-full gap-12 py-16"
       id="projects"
     >
-      <h1 className="font-extrabold lg:text-5xl text-4xl dark:text-primaryBText primaryWText">
-        Projects
-      </h1>
+      <div className="flex items-end gap-10">
+        <h1 className="font-extrabold lg:text-5xl text-4xl dark:text-primaryBText primaryWText">
+          Projects
+        </h1>
+        <button className="mt-[-40px] flex items-center justify-center gap-5 dark:bg-[#0D0F12] md:border-2 border-[1px] dark:border-[#999] border-[#0D0F12] bg-[#F2F2F2] text-[#0D0F12] dark:text-[#E3E6E8] py-2 px-4 rounded-lg dark:hover:border-[#FFF159] hover:border-[#51D1F6] dark:hover:text-[#FFF159] hover:text-[#51D1F6] transition-all text-[0.9rem] md:text-base text-xs font-semibold">
+          <NormalStarIcon />
+          <StarIcon />
+          <span>Sneak Peeks</span>
+        </button>
+      </div>
       <div className="grid gap-8 lg:grid-cols-2 place-items-center">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
