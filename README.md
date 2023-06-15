@@ -15,14 +15,6 @@
         Stack
     </a>
     <span>&nbsp;⁘&nbsp;</span>
-    <a href="#-getting-started">
-        Getting Started
-    </a>
-    <span>&nbsp;⁘&nbsp;</span>
-    <a href="#-license">
-        License
-    </a>
-    <span>&nbsp;⁘&nbsp;</span>
     <a href="https://twitter.com/jeremyjsx" target="_blank">
         Twitter
     </a>
