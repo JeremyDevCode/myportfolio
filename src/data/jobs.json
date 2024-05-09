@@ -1,9 +1,43 @@
 [
     {
+        "id": "TRD - Trade EC",
+        "picture": "/images/TRD.jpeg",
+        "title": "Associate Frontend Engineer",
+        "time": "June 2023 - Present",
+        "company": "TRD - Trade EC",
+        "description": "In my role as a frontend engineer, my focus has been on implementing user interfaces based on designs provided by our design team, transforming these detailed designs into functional and aesthetically appealing interfaces that deliver a consistent, high-quality user experience, in the implementation of APIs to integrate data and functionalities in our web and mobile applications, keeping the history of our code clean, based on good practices for making conventional commits and recurring code reviews. Additionally, we try to keep the libraries we use in our projects up to date to remain secure, efficient, and compatible with the latest standards and best practices.",
+        "activities": [
+            "Web page development with NextJS.",
+            "Application development with React Native and Expo.",
+            "Active participation in pair programming.",
+            "I organized internal training sessions."
+        ],
+        "technologies": [
+            { "name": "HTML", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443476/Portfolio/Icons/html_lbl9nf.png" },
+            { "name": "CSS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "JavaScript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443529/Portfolio/Icons/javascript_phrvvu.png" },
+            { "name": "Figma", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444873/Portfolio/Icons/figma_ptyicc.png"},
+            { "name": "NPM", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444858/Portfolio/Icons/npm_xvrucb.png"},
+            { "name": "Yarn", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1715220066/Portfolio/Icons/yarn.png"},
+            { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" },
+            { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
+            { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel.png" },
+            { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
+            { "name": "Firebase", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/firebase.png" },
+            { "name": "Supabase", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/supabase.png" },
+            { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
+            { "name": "React Native", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
+            { "name": "Expo", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1715220383/Portfolio/Icons/expo.png" },
+            { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
+            { "name": "Typescript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029638/Portfolio/Icons/typescript.png" }
+        ]
+    },
+    {
         "id": "Personal",
         "picture": "",
         "title": "Personal projects",
-        "time": "September 2019 - Present",
+        "time": "September 2019 - June 2023",
         "company": "Own",
         "description": "In 2019, I discovered my passion for programming and decided to study it while in school. I began by learning Pseint and then progressed to C++, Java, and eventually HTML, CSS, and Javascript. It was during this time that I discovered my love for web development, particularly in frontend development. As I aspire to become a frontend developer, I have been working on several projects. Initially, I worked on long projects that I ended up abandoning. However, I learned that shorter, aesthetically-pleasing projects that demonstrate my skills are much better.",
         "activities": [
@@ -20,11 +54,11 @@
             { "name": "Github", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444346/Portfolio/Icons/github_bucanr.png" },
             { "name": "Git", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444193/Portfolio/Icons/git_onxbvq.png" },
             { "name": "React", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443905/Portfolio/Icons/react_hcvqxl.png" },
-            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel_bsiamr.png" },
+            { "name": "Vercel", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029130/Portfolio/Icons/vercel.png" },
             { "name": "NextJS", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679444045/Portfolio/Icons/next_z13ryh.png" },
             { "name": "CSS Module", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443494/Portfolio/Icons/css_j6x6me.png" },
             { "name": "Tailwind", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1679443857/Portfolio/Icons/tailwind_dxhsut.png" },
-            { "name": "Typescript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029638/Portfolio/Icons/typescript_xcjdry.png" }
+            { "name": "Typescript", "icon": "https://res.cloudinary.com/deohsoirn/image/upload/v1680029638/Portfolio/Icons/typescript.png" }
         ]
     }
 ]
