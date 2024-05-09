@@ -20,6 +20,8 @@ function JobCard({ job }) {
           <Image
             className="w-full h-full"
             src={job.picture}
+            width={120}
+            height={120}
             alt={`Logo of ${job.Company} where I worked as a ${job.title}`}
             loading="lazy"
           />
